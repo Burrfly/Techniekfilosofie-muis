@@ -1,0 +1,90 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #a7cfb2;
+  margin: 8px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+  position: relative;
+  left: 1%;
+}
+
+.outline {
+  position: relative;
+  left: 15%;
+  width: 70%;
+}
+
+.holder {
+  position: relative;
+  left: 0%;
+  width: 98%;
+  padding: 1%;
+  background-color: #ebe8d1;
+}
+
+.marked_text {
+  background-color: #c2c0ae
+}
+
+.flex_holder {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 32px;
+  margin-left: 32px;
+  list-style-type: none;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #aeb7c2;
+}
+
+.img_holder {
+  position: relative;
+  display: inline-block;
+  float: right;
+  background-color: #d6d3bf;
+  padding: 8px;
+  margin-left: 16px;
+}
+
+img {
+  width: 200px;
+  object-fit: contain;
+}
+
+hr {
+  height: 1px;
+  background-color: #475946;
+  border: none;
+}
+
+.cursor_link {
+  cursor: pointer;
+}
+
+.cursor_beam {
+  cursor: text;
+}
+
+.cursor_busy {
+  cursor: wait;
+}
+
+.cursor_move {
+  cursor: move;
+}
+
+.cursor_cross {
+  cursor: crosshair;
+}
